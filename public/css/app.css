@@ -1,0 +1,54 @@
+body {
+  margin: 1;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.case {
+  width: 11vh;
+  height: 11vh;
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.clavier {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vh;
+}
+
+.line {
+  display: flex;
+  gap: 2vh;
+  justify-content: center;
+}
+
+.key {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(250, 0, 0);
+  padding: 1%;
+  border-radius: 14px;
+  cursor: pointer;
+  color: white;
+  transition: 0.6s ease;
+}
+
+.key:hover {
+  background-color: rgb(137, 1, 1);
+}
