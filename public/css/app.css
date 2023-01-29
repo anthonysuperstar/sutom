@@ -6,6 +6,8 @@ body {
   gap: 10vh;
 }
 
+
+
 .row {
   display: flex;
   justify-content: center;
@@ -21,6 +23,7 @@ body {
   align-items: center;
   font-size: 4em;
   font-weight: bold;
+  transition: .4s;
 }
 
 .clavier {
