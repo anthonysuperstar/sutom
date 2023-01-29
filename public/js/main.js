@@ -2,8 +2,8 @@ const randomSelectBetween = (...numbers) =>{
     return numbers[Math.floor(Math.random()*numbers.length-1)]
 }
 
-let mots = "roulera rouleur roulier rouliez rouloir roulons roulure roulées roumain roupies rouquin rousses roussie roussin roussir roussis roussit roussît roustie roustir roustis roustit roustît routage routais routait routant routard routent routera routier routiez routine routons routées rouvert rouvres rouvrez rouvrir rouvris rouvrit rouvrue rouvrus rouvrît rouâmes rouâtes rouîmes rouîtes rowings royales royaume royauté ruaient ruasses rubanai rubanas rubaner rubanes rubanez rubanât rubanée rubanés rubiacé rubican rubéfia rubéfie rubéfié rubéole ruchais ruchait ruchant ruchent ruchera ruchers ruchiez ruchons ruchées rudenta rudente rudenté rudesse rudoies rudoyai rudoyas rudoyer rudoyez rudoyât rudoyée rudoyés rudéral ruelles ruerais ruerait rueriez ruerons rueront ruffian rufians rugirai rugiras rugirez rugisse rugueux rugîmes rugîtes ruilais ruilait ruilant ruilent ruilera ruiliez ruilons ruilées ruinais ruinait ruinant ruinent ruinera ruineux ruiniez ruinons ruinure ruinées rumeurs ruminai ruminas ruminer rumines ruminez ruminât ruminée ruminés rupinai rupinas rupiner rupines rupinez rupinât rupteur rupture rurales rusasse ruserai ruseras ruserez rusions russule rustaud rustine rustres rusâmes rusâtes rutilai rutilas rutiler rutiles rutilez rutilât ruèrent rythmai rythmas rythmer rythmes rythmez rythmât rythmée rythmés râblais râblait râblant râblent râblera râbliez râblons râblure râblées râlante râlants râlasse râlerai râleras râlerez râleurs râleuse râlions râlâmes râlâtes râpages râpasse râperai râperas râperez râperie râpeuse râpions râpures râpâmes râpâtes râteaux râtelai râtelas râteler râtelez râtelle râtelât râtelée râtelés règlent règnent réactif réadmet réadmis réadmit réadmît réagira réaient réalgar réalisa réalise réalisé réalité réalèse réalésa réalésé réanima réanime réanimé réarmai réarmas réarmer réarmes réarmez réarmât réarmée réarmés réasses récente récents réchaud récifal récitai récital récitas réciter récites récitez récitât récitée récités réclama réclame réclamé réclina récline"
-let listMots = /*mots.split(" ")*/["anglais", "anormal", "wallons"]
+let mots = "ADSORBE ADSTRAT ADULAIS CABALAI MANQUES MANQUEZ MANSENG MANSION MANTAIS MANTEAU MANTELE MANTRAS MANUELS MAOISME MAOISTE MAORIES MAOUSSE MAPPAGE MAPPAIS MAPPAIT MAPPANT MAPPEES MAPPENT MAPPERA MAPPIEZ MAPPONS MAPUCHE MAQUAIS CABALAS CABALAT CABALEE CABALER CABALES CABALEZ CABANAI CABANAS CABANAT CABANEE CABANER CABANES CABANEZ CABANON CABARET CABECHE CABECOU CABIAIS CABINAI CABINAS CABINAT CABINER CABINES ADULAIT ADULANT ADULEES ADULENT ADULERA ADULIEZ ADULONS ADULTES ADVENIR ADVENUE ADVENUS ADVERBE ADVERSE ADVIENT ADYTONS AERAGES AERAMES AERASSE AERATES AERERAI AERERAS"
+let listMots = mots.split(" ")
 
 //---------------------------------------------
 
@@ -116,9 +116,3 @@ keyList.forEach(key =>{
 
     })
 })
-
-
-
-// body.addEventListener("keydown", (e)=>{
-//     
-// })
